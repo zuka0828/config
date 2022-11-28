@@ -1,0 +1,11 @@
+// Detect "EISU" and "KANA" keycodes (for Mac), which are one of
+// the custom keys provided by HHKB(US), and convert them to
+// "Muhenkan" and "Henkan".
+// This replacement is useful for IME-ON/OFF with US keyboard.
+//
+// Reference: "macintosh_vndr/jp"
+partial modifier_keys
+xkb_symbols {
+    replace key <HJCV> { [ Muhenkan ] };
+    replace key <HNGL> { [ Henkan ] };
+};
