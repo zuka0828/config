@@ -1,0 +1,5 @@
+# Intended to be used as "~/.config/autostart/xkbcomp.desktop"
+[Desktop Entry]
+Name=xkbcomp
+Exec=sh -c "${HOME}/config/xkb/xkbcomp.sh"
+Type=Application
