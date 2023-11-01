@@ -1,2 +1,5 @@
 escape ^Zz
 startup_message off
+
+# Avoid display problem with ncurses due to CJK width
+cjkwidth off
